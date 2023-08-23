@@ -4,6 +4,7 @@ A [hardhat-circom](https://github.com/projectsophon/hardhat-circom) template to 
 
 ## Quick Start
 Compile the Multiplier2() circuit and verify it against a smart contract verifier
+```
 pragma circom 2.0.0;
 
 /*This circuit template checks that c is the multiplication of a and b.*/  
@@ -53,6 +54,7 @@ template OR() {
 }
 
 component main = Multiplier2();
+```
 ### Install
 `npm i`
 
